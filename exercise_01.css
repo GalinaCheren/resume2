@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Qwitcher+Grypen&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: bisque;
+}
+body {
+  color: aliceblue;
+  font: 20px "Indie Flower";
+  font-weight: 500;
+  /* margin: 10%; */
+  /* background-image: url(1627111561_13-kartinkin-com-p-besshovnii-fon-nebo-krasivo-13.jpg); */
+
+  background-image: url(animated-wallpaper-240x320px-acegif-49.gif);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.card {
+  border: 3px ridge rgb(84, 84, 250);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.one {
+  background-color: rgba(90, 42, 38, 0.2);
+}
+.two {
+  background-color: rgba(91, 102, 40, 0.2);
+}
+
+.three {
+  background-color: rgba(100, 39, 105, 0.2);
+}
+
+.four {
+  background-color: rgba(66, 114, 44, 0.2);
+}
+
+a {
+  font-size: x-large;
+  color: #dddddd;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 20%;
+
+  /* margin: 20px solid white; */
+}
+
+a:hover {
+  color: pink;
+  font-size: 2rem;
+  transition: 0.2s;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+.socialLink {
+  background-image: url(1545.gif);
+  opacity: 0.5;
+  padding: 5px 20px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .links {
+    display: block;
+    padding: 0;
+  }
+  .links li {
+    padding: 10px;
+  }
+}
+
+h2 {
+  color: rgb(84, 84, 250);
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-decoration: underline;
+  /* text-align: center; */
+}
+.work {
+  text-align: center;
+}
+
+.hobbies {
+  padding: 0;
+}
+.hobbies li {
+  padding-left: 15px;
+  border-bottom: 1px solid black;
+  width: 30%;
+  color: black;
+  list-style: none;
+  border-left: 6px solid red;
+  background: rgba(211, 184, 218, 0.438);
+}
+@media (max-width: 500px) {
+  .hobbies li {
+    width: 100%;
+  }
+}
+.hobbies li:hover {
+  color: pink;
+  font-size: 2rem;
+  cursor: pointer;
+}
+/* table {
+  /* border: 1px solid black; */
+/* table-layout: fixed; */
+/* width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple; */
+/* border-collapse: collapse;
+} */
+
+/* .table {
+  width: max-content;
+  margin: auto;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+} */
+
+.table table {
+  width: 100%;
+}
+
+.table th {
+  /* font-weight: bold; */
+  padding: 5px;
+  background-color: rgba(219, 215, 214, 0.5);
+  border: 1px solid #dddddd;
+  color: azure;
+  font-size: larger;
+}
+.table tr {
+  text-align: center;
+}
+.table td {
+  cursor: pointer;
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+.table td:hover {
+  background: rgb(255, 163, 177, 0.5);
+
+  color: azure;
+}
+p {
+  width: 95%;
+  text-align: center;
+
+  animation: 3s linear 1s infinite alternate slidein;
+}
+@keyframes slidein {
+  from {
+    transform: translateX(+5%);
+  }
+  to {
+    transform: translateX(-0);
+  }
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(240, 221, 221, 0.2);
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  /* text-align: right; */
+}
+
+button {
+  border: 1px solid rgb(255, 255, 255);
+  color: aliceblue;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  outline: 1px solid rgb(155, 155, 155);
+  outline-offset: 4px;
+}
+
+.four h2 {
+  text-align: center;
+}
+
+.contact {
+  font-size: larger;
+  width: 49%;
+  display: inline-block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.contact input {
+  width: 100%;
+}
+
+#message {
+  font-size: x-large;
+  background: rgba(240, 221, 221, 0.2);
+}
+.contact label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.information {
+  opacity: 1;
+  background: none;
+  background-color: rgba(109, 102, 101, 0.295);
+  padding: 5px 20px;
+}
+
+.contact img {
+  border-radius: 7px;
+  width: 10%;
+  margin-left: 10px;
+}
+
+.contact.fullwidth {
+  width: 100%;
+  margin: 0;
+}
+
+.contact textarea {
+  width: 100%;
+}
