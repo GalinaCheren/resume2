@@ -11,36 +11,44 @@ header {
 }
 body {
   color: aliceblue;
-  font: 20px "Indie Flower";
+  font: 25px "Indie Flower";
   font-weight: 500;
   /* margin: 10%; */
   /* background-image: url(1627111561_13-kartinkin-com-p-besshovnii-fon-nebo-krasivo-13.jpg); */
 
   background-image: url(animated-wallpaper-240x320px-acegif-49.gif);
 }
+hr {
+  max-width: 500px;
+}
 .container {
-  max-width: 800px;
+  max-width: 90%;
   margin: auto;
 }
 .card {
+  width: 100%;
   border: 3px ridge rgb(84, 84, 250);
   padding: 15px 20px;
-  border-radius: 10px;
+  border-radius: none;
 }
 
 .one {
   background-color: rgba(90, 42, 38, 0.2);
+  text-align: center;
 }
+
 .two {
   background-color: rgba(91, 102, 40, 0.2);
 }
 
 .three {
   background-color: rgba(100, 39, 105, 0.2);
+  padding-bottom: 30px;
 }
 
 .four {
   background-color: rgba(66, 114, 44, 0.2);
+  border: none;
 }
 
 a {
@@ -198,6 +206,7 @@ button {
   cursor: pointer;
   outline: 1px solid rgb(155, 155, 155);
   outline-offset: 4px;
+  font: 25px "Indie Flower";
 }
 
 .four h2 {
@@ -230,20 +239,25 @@ button {
   opacity: 1;
   background: none;
   background-color: rgba(109, 102, 101, 0.295);
-  padding: 5px 20px;
+  padding: 20px 20px;
+  font: 25px "Indie Flower";
 }
 
 .contact img {
+  opacity: 0.3;
   border-radius: 7px;
-  width: 10%;
+  width: 5%;
   margin-left: 10px;
 }
 
-.contact.fullwidth {
+.fullwidth {
   width: 100%;
   margin: 0;
 }
 
 .contact textarea {
   width: 100%;
+  font: 50px "Indie Flower";
+  padding: 20px 20px;
+  border: none;
 }
